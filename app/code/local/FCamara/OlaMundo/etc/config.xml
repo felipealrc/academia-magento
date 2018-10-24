@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+    <!--config do modulo -->
+    <global>
+        <modules>
+            <FCamara_OlaMundo>
+                <version>1.0.0</version>
+            </FCamara_OlaMundo>
+        </modules>
+    </global>
+
+     <!--definicao da rota -->
+    <frontend>
+        <routers>
+            <FCamara_OlaMundo>
+                <use>standard</use>
+                <args>
+                    <module>FCamara_OlaMundo</module>
+                    <frontName>olamundo</frontName>
+                </args>
+            </FCamara_OlaMundo>
+        </routers>
+    </frontend>
+</config>
